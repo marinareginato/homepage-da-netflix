@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Rokkitt:wght@500&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body, footer{
+    background: linear-gradient(181.16deg, rgba(101, 101, 101, 0.49) 0.9%, #212121 98.94%);
+}
+.menu-fixo{
+    
+    background: linear-gradient(181.16deg, rgba(1, 1, 1, 0.49) 0.9%, rgba(254, 250, 254, 0) 98.94%);
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+	height: 10vh;
+    position: fixed;
+    
+}
+.parte-um{
+    background: transparent;
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.logo {
+    
+    display: flex;
+    width: 30%;
+    height: 100%;
+    
+}
+
+.logo img{
+    margin: 1rem 0rem 1rem 3rem;
+    width: auto;
+	height: auto;
+}
+.menu{
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.8rem;
+    display: flex;
+    width: 70%;
+    height: 100%;
+    padding: 0.8rem;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.itens{
+    padding: 0.5rem;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+
+.parte-dois{
+    width: 30%;
+    height:100%;
+    display: flex;
+    margin-right: 1rem;
+    
+    
+}
+
+.Perfil{
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0.4rem 2rem; 
+    
+}
+.pesquisar-sininho{
+    width: 100%;
+    height: 100%;
+    padding: 0.7rem; 
+}
+.perfil{
+    width: 100%;
+    height: 100%;
+    margin-right: 0.4rem;
+}
+
+.conteudo-principal{
+    width: 100vw;
+	height: 100vh;
+    display: flex;
+    background-image: url("imgprincipal2.jpg");
+    background-size: 100vw 100vh;
+ }
+
+.conteudo {
+    width: 50%;
+	height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 17%;
+
+}
+.logomenor{
+    width: 20%;
+    height: 10%;
+    display: flex;
+}
+
+.logomenor h5 {
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.conteudo h1{
+    color: #fff;
+    font-size: 5rem;
+}
+.conteudo h2{
+    color:#fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+.conteudo p{
+    color:#fff;
+    font-family:  'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+}
+.buttons{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;  
+    padding: 0.3rem;
+    margin-top: 0.3rem;
+}
+.buttons button{
+    border-radius: 0.2rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+      
+}
+
+.assistir{
+    width: 30%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    padding: 0.2rem;
+    align-items: center;
+    background-color: #fff;
+}
+.informacoes{
+    width: 60%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+    color: #fff;
+    background-color: rgb(75, 66, 66);
+}
+.assistir img{
+    width: 20%;
+    height: auto;
+    padding-right: 0.3rem;
+}
+.informacoes img{
+    padding-right: 0.3rem;
+}
+footer{
+    display: flex;
+    color: #fff;
+    background-color: black;
+    width: 100%;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.zero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:rgb(131, 122, 122);
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1rem;
+}
+.Icones, .cinco{
+    margin-left: 6rem;
+
+}
+.Icones{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+}
+.cinco{
+    color:rgb(131, 122, 122);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+}
+.cinco button{
+    border-radius: 0.1rem;
+    font-weight: 400;
+    border-color:rgb(131, 122, 122);
+    cursor: pointer;
+    background-color: transparent;
+    color:rgb(131, 122, 122);
+    width: 10vw;
+    height: 4vh;
+    margin-bottom: 1rem;
+}
+.cinco h1{
+    font-size: 0.8rem; 
+    margin-bottom: 0.3rem;
+}
+.filmes{
+    padding: 0 0 0 20px;
+    margin: 20px 0 0 5px;
+    width: auto;
+    height: auto;
+}
+
+.titulos{
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.slide{
+    display: flex;    
+}
+
+.slide img{
+    max-width: 220px;
+    max-height: 190px;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    border-radius: 6px;
+}
